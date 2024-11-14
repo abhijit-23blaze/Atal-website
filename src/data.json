@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "domain": "http://ykob.github.io/sketch-threejs",
+    "websiteName": "ATAL",
+    "keywords": "Yoichi Kobayashi, WebGL, three.js"
+  },
+  "pages": {
+    "index": {
+      "title": "",
+      "id": "index",
+      "description": "Emerging Techniques in Cyber Security for Building Resilient Network Infrastructure",
+      "path": "/",
+      "color": "white"
+    },
+    
+    "glass": {
+      "title": "glass",
+      "id": "glass",
+      "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
+      "path": "/sketch/glass.html",
+      "posted": "2021.4.24",
+      "update": "",
+      "color": "white",
+      "assets": [
+        {
+          "name": "Stone Texture",
+          "link": "https://cc0textures.com/view?id=Marble012"
+        },
+        {
+          "name": "HDRI Image",
+          "link": "https://hdrihaven.com/hdri/?c=skies&h=table_mountain_1"
+        }
+      ]
+    },
+    "glass": {
+      "title": "Schedule",
+      "id": "glass",
+      "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
+      "path": "/sketch/glass.html",
+      "posted": "2021.4.24",
+      "update": "",
+      "color": "white",
+      "assets": [
+        {
+          "name": "Stone Texture",
+          "link": "https://cc0textures.com/view?id=Marble012"
+        },
+        {
+          "name": "HDRI Image",
+          "link": "https://hdrihaven.com/hdri/?c=skies&h=table_mountain_1"
+        }
+      ]
+    },
+    "glass1": {
+      "title": "Speakers",
+      "id": "glass",
+      "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
+      "path": "/sketch/glass.html",
+      "posted": "2021.4.24",
+      "update": "",
+      "color": "white",
+      "assets": [
+        {
+          "name": "Stone Texture",
+          "link": "https://cc0textures.com/view?id=Marble012"
+        },
+        {
+          "name": "HDRI Image",
+          "link": "https://hdrihaven.com/hdri/?c=skies&h=table_mountain_1"
+        }
+      ]
+    },
+    "glass2": {
+      "title": "Regsiter now",
+      "id": "glass",
+      "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
+      "path": "/sketch/glass.html",
+      "posted": "2021.4.24",
+      "update": "",
+      "color": "white",
+      "assets": [
+        {
+          "name": "Stone Texture",
+          "link": "https://cc0textures.com/view?id=Marble012"
+        },
+        {
+          "name": "HDRI Image",
+          "link": "https://hdrihaven.com/hdri/?c=skies&h=table_mountain_1"
+        }
+      ]
+    }
+   
+    
+  }
+}
