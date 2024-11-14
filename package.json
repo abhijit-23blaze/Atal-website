@@ -1,10 +1,10 @@
 {
   "name": "sketch-threejs.js",
   "version": "2.0.0",
-  "description": "it's my personal sketch made with three.js.",
+  "description": "ATAL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ykob/sketch-threejs"
+    "url": "https://github.com/abhijit-23blaze"
   },
   "private": true,
   "scripts": {
