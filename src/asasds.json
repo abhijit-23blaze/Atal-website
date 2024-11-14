@@ -12,22 +12,35 @@
       "path": "/",
       "color": "white"
     },
-    "water": {
-      "title": "water",
-      "id": "water",
-      "description": "Distort the scene with the water surface normal map.",
-      "path": "/sketch/water.html",
-      "posted": "2021.5.9",
+    
+   
+    "glass": {
+      "title": "glass",
+      "id": "glass",
+      "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
+      "path": "/sketch/glass.html",
+      "posted": "2021.4.24",
       "update": "",
-      "color": "black",
+      "color": "white",
       "assets": [
         {
-          "name": "Ocean Textures",
-          "link": "https://www.cgtrader.com/3d-model-collections/ocean-8k"
+          "name": "Stone Texture",
+          "link": "https://cc0textures.com/view?id=Marble012"
+        },
+        {
+          "name": "HDRI Image",
+          "link": "https://hdrihaven.com/hdri/?c=skies&h=table_mountain_1"
         }
       ]
-    },
-    "glass": {
+    }
+    
+   
+    
+  }
+}
+
+
+"glass": {
       "title": "glass",
       "id": "glass",
       "description": "I made an object that has refraction of light like glass. It's distorting the frame buffer of the landscape with normals.",
@@ -460,5 +473,3 @@
       "update": "",
       "color": "white"
     }
-  }
-}
