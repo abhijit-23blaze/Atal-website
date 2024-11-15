@@ -107,9 +107,15 @@
       }
       &:before {
         background-color: #fff;
+        display: none;
       }
       &:after {
         background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+      }
+
+      &:before, &:after {
+        display: none; // Remove the overlay elements
       }
       &-label {
         width: 100%;
@@ -210,14 +216,10 @@
     &:hover & {
       &-thumb {
         &:after {
-          opacity: 1;
+          opacity: 0;
         }
-        &-label {
-          .js-split-str {
-            opacity: 1;
-            transform: scale(1);
-          }
-        }
+       
+        
       }
     }
   }

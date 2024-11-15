@@ -30,7 +30,7 @@ block content
       each item in data.pages
         if (item.title !== '' && item.title !== 'shadow')
           - var rowClass = '';
-          - if (count < 2) {
+          - if (count < 9) {
           -   rowClass = 'p-sketch-index__item--large';
           - } else {
           -   rowClass = 'p-sketch-index__item--small';
@@ -43,6 +43,8 @@ block content
               .p-sketch-index__item-thumb(
                 style=`background-image: url(/sketch-threejs/img/common/ogp_${item.id}.jpg)`
               )
+
+              
                 .p-sketch-index__item-thumb-label
                   +splitStr('show this', 'js-split-str')
               //- .p-sketch-index__item-title
@@ -52,8 +54,11 @@ block content
               //-   if (item.update)
               //-     |/ update: #{item.update}
           - count++;
-          if count >= 5
+          if count >= 9
             - break;
+
+    .p-introduction__row.js-transition-intro
+      | Emerging Techniques in Cyber Security for Building Resilient Network Infrastructure
 
   .p-dummy-scroll.js-dummy-scroll
 
