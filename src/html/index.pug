@@ -13,13 +13,13 @@ block content
         .p-introduction__row.js-transition-intro
           |by 
           +textLink("https://www.iiits.ac.in", "IIITS", "_blank")
-        .p-introduction__links
-          a(href="https://github.com/ykob/sketch-threejs/", target="_blank").p-introduction__link.js-transition-intro
-            +iconGitHub(24)
-          //- a(href="https://twitter.com/ykob0123", target="_blank").p-introduction__link.js-transition-intro
-          //-   +iconTwitter(24)
-          a(href="mailto:info@tplh.net").p-introduction__link.js-transition-intro
-            +iconMail(24)
+        //- .p-introduction__links
+        //-   a(href="https://github.com/ykob/sketch-threejs/", target="_blank").p-introduction__link.js-transition-intro
+        //-     +iconGitHub(24)
+        //-   //- a(href="https://twitter.com/ykob0123", target="_blank").p-introduction__link.js-transition-intro
+        //-   //-   +iconTwitter(24)
+        //-   a(href="mailto:info@tplh.net").p-introduction__link.js-transition-intro
+        //-     +iconMail(24)
         .p-introduction__follow.js-transition-intro
           .p-introduction__follow-in.p-introduction__follow-in--1
           .p-introduction__follow-in.p-introduction__follow-in--2
@@ -57,9 +57,7 @@ block content
           if count >= 9
             - break;
 
-    .p-introduction__row.js-transition-intro
-      | Emerging Techniques in Cyber Security for Building Resilient Network Infrastructure
-
+    
   .p-dummy-scroll.js-dummy-scroll
 
   canvas(id="canvas-webgl", class="p-canvas-webgl")
